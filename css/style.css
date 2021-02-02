@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(245, 244, 244);
+}
+.card-content1 h6 {
+    display: block;
+    font-size: 1em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+#icon{
+    padding-top: 12px;
+    padding-right: 7px;
+}
+.icon-text{
+    position: relative;
+    top: -12px;
+    margin-bottom: 20px;
+}
+.card-content1{
+    padding: 0px 10px 10px 10px;
+}
+.card-content1 h6{
+    line-height: 130%;
+}
+.pad{
+    padding: 20px 0px 0px 0px;
+}
+/* .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+.ellipsis{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img-card{
+    height: 200px;
+    padding: 10px 0px 0px 0px;
+    object-fit: contain;
+    /* object-position:50% 50%; */
+}
+.phone-only{
+    display: none;
+}
+.box{
+    height: 200px;
+    width: 100%;
+    margin-top: 1px;
+    background-color: rgb(18, 204, 157);
+    position: relative;
+    display: flex;
+    
+}
+.box h6 {
+    position: absolute; 
+    top: 0%;
+    margin: 0;
+    justify-content: center;
+}
+.box1{
+
+}
+@media only screen and ( max-width: 600px){
+    .img-card{
+        height: 300px;
+        padding: 0px 0px 0px 0px;
+        /* object-position:50% 50%; */
+    }
+    .card-content1{
+        /* padding: 0px 100px 10px 105px; */
+        margin: 0px 0px 0px 10px
+    }
+    #icon{
+        padding-top: 6px;
+        padding-right: 7px;
+    }
+    .icon-text{
+        position: relative;
+        top: -12px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .pad{
+        padding: 30px 0px 0px 0px;
+    }
+}
+@media only screen and (min-width: 993px){
+    .card-content1{
+        padding: 5%;
+    }
+    
+}
